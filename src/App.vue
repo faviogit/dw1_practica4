@@ -11,15 +11,15 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <router-view />
 </template>
 
 <style scoped>
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 10em;
+  padding: 4.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 400ms;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
